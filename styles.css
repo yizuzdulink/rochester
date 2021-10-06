@@ -1,0 +1,435 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f5ecec;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+.margentop {
+  margin-top: 40px;
+}
+.logo {
+  width: 100px;
+  margin-left: 80px;
+  z-index: 2;
+}
+.circulo {
+  position: absolute;
+  opacity: 1;
+  top: -180px;
+  left: -80px;
+  width: 800px;
+  border-radius: 50%;
+}
+
+.boxLeft {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 100px;
+  top: 180px;
+}
+
+.aboutUs {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 60px;
+  width: 300px;
+}
+
+.text1 {
+  text-align: left;
+  font: normal normal bold 25px Mrs Eaves XL Serif Nar OT;
+  letter-spacing: 0px;
+  color: #ff4c00;
+  opacity: 1;
+}
+
+.mainText {
+  text-align: left;
+  font: normal normal bold 40px Roboto;
+  letter-spacing: 0px;
+  color: #2d3a41;
+  opacity: 1;
+  margin: 15px;
+}
+
+.pdfBtn {
+  background: #e95d0c 0% 0% no-repeat padding-box;
+  border-radius: 70px;
+  opacity: 1;
+  width: 151px;
+  height: 42px;
+  margin-left: 15px;
+  margin-top: 15px;
+  border: 0;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 6%;
+}
+
+.sendEmail {
+  margin-left: 60%;
+}
+
+.titleEmail {
+  text-align: start;
+  font: normal normal bold 25px Roboto;
+  font-family: "Roboto";
+  letter-spacing: 0px;
+  color: #231f20;
+  opacity: 1;
+  /* margin-left: 18%; */
+}
+
+.sendUsBox {
+  padding: 0px 0px 0px 15%;
+}
+
+.boxEmail {
+  background: #2d3a41 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 12px;
+  opacity: 1;
+  width: 406px;
+  height: 382px;
+  /* margin: 0 0; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.email {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  width: 75%;
+  height: 42px;
+  margin-top: 6px;
+  margin-left: 5px;
+  border: 0;
+}
+
+.submit {
+  border-radius: 8px;
+  width: 20%;
+  background: #e95d0c 0% 0% no-repeat padding-box;
+  height: 47px;
+  margin-top: 6px;
+  margin-left: 5px;
+  border: 0;
+}
+
+.iconSend {
+  background: transparent;
+}
+
+.textArea {
+  width: 95%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  border: 0;
+  margin: 10px auto;
+  margin-top: -140px;
+}
+
+.separador {
+  width: 100%;
+  height: 18px;
+  background: #ff4c00 0% 0% no-repeat padding-box;
+  margin-top: 100px;
+}
+
+.segundaPage {
+  margin-top: 100px;
+  margin-left: 10%;
+  width: 80%;
+  background: #fdfcfc 0% 0% no-repeat padding-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.parrafo {
+  margin: 0 70px;
+}
+.parrafoText {
+  text-align: left;
+  font: normal normal bold 20px Roboto;
+  letter-spacing: 0px;
+  color: #2d3a41;
+  margin-top: 10px;
+}
+.titleParr {
+  text-align: left;
+  font: normal normal bold 40px Roboto;
+  letter-spacing: 0px;
+  color: #2d3a41;
+  margin: 5px 0px;
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+.terceraPage {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.boxEspecial {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  background: #fff;
+  width: 30%;
+  padding: 30px;
+  margin: 20px 4%;
+  flex-direction: column;
+  border-radius: 12px;
+}
+
+.titleBox {
+  text-align: center;
+  font: normal normal bold 26px Roboto;
+  letter-spacing: 0px;
+  color: #2d3a41;
+  /* margin-top: 10px; */
+}
+
+.parrafoFinal {
+  margin-top: 10px;
+  text-align: center;
+  font: normal normal normal 20px Roboto;
+  letter-spacing: 0px;
+  color: #2d3a41;
+}
+
+.boxEspecial2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* justify-items: flex-start; */
+  background: #fff;
+  width: 30%;
+  padding: 30px;
+  margin: 20px 4%;
+  border-radius: 12px;
+}
+
+.titleBox2 {
+  text-align: center;
+  font: normal normal bold 26px Roboto;
+  letter-spacing: 0px;
+  color: #2d3a41;
+  /* margin-top: -30%; */
+}
+
+.parrafoFinal2 {
+  margin-top: 0px;
+  text-align: center;
+  font: normal normal normal 20px Roboto;
+  letter-spacing: 0px;
+  color: #2d3a41;
+}
+
+.boxEspecial3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: #fff;
+  width: 30%;
+  padding: 30px;
+  margin: 20px 4%;
+  border-radius: 12px;
+}
+
+.titleBox3 {
+  text-align: center;
+  font: normal normal bold 26px Roboto;
+  letter-spacing: 0px;
+  color: #2d3a41;
+  /* margin-top: -20%; */
+}
+
+.parrafoFinal3 {
+  margin-top: 10px;
+  text-align: center;
+  font: normal normal normal 20px Roboto;
+  letter-spacing: 0px;
+  color: #2d3a41;
+}
+
+.li {
+  margin-top: 10px;
+  text-align: center;
+  font: normal normal normal 20px Roboto;
+  letter-spacing: 0px;
+  color: #2d3a41;
+}
+
+.icon {
+  position: absolute;
+  width: 80px;
+  top: -8%;
+  background-color: #fff;
+  border-radius: 50%;
+  left: 43%;
+}
+
+.iconn {
+  width: 80px;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 30px;
+  height: 80px;
+  padding-top: 20px;
+  background: #231f20 0% 0% no-repeat padding-box;
+}
+
+.textFooter {
+  color: #ff4c00;
+  margin-left: 30px;
+  font: normal normal normal 16px Segoe UI;
+}
+
+@media (max-width: 1440px) {
+  .icon {
+    position: absolute;
+    width: 80px;
+    top: -4%;
+    background-color: #fff;
+    border-radius: 50%;
+    left: 38%;
+  }
+}
+.cell {
+  display: none;
+}
+
+@media (max-width: 425px) {
+  .logo {
+    width: 70px;
+    margin-left: 60px;
+    z-index: 2;
+  }
+  .circulo {
+    position: absolute;
+    opacity: 1;
+    top: 30px;
+    left: -50px;
+    width: 100%;
+  }
+
+  .boxLeft {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 30px;
+    top: 160px;
+  }
+
+  .aboutUs {
+    display: none;
+  }
+
+  .sendEmail {
+    margin-top: 150px;
+    margin-left: -2%;
+  }
+
+  .boxEmail {
+    background: #2d3a41 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 12px;
+    opacity: 1;
+    width: 300px;
+    height: 282px;
+    /* margin: 0 0; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .email {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    width: 75%;
+    height: 42px;
+    margin-top: 6px;
+    margin-left: 5px;
+    border: 0;
+  }
+
+  .textArea {
+    width: 95%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    border: 0;
+    margin: 10px auto;
+    margin-top: -60px;
+  }
+
+  .terceraPage {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .boxEspecial {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    background: #fff;
+    width: 70%;
+    padding: 30px;
+    margin: 20px 5%;
+    flex-direction: column;
+    border-radius: 12px;
+  }
+
+  .boxEspecial2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* justify-items: flex-start; */
+    background: #fff;
+    width: 70%;
+    padding: 30px;
+    margin: 20px 5%;
+    border-radius: 12px;
+  }
+
+  .boxEspecial3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #fff;
+    width: 70%;
+    padding: 30px;
+    margin: 20px 5%;
+    border-radius: 12px;
+  }
+
+  .cell {
+    margin-top: 400px;
+    display: block;
+  }
+
+}
